@@ -1,7 +1,7 @@
 # Twimba (X "Twitter" Clone)
 
 
-![image](images/screenshot .png)
+![image](images/screenshot.png)
 
 
 ## Description
