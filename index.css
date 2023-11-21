@@ -1,0 +1,164 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #15202b;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 1px solid #343739;
+}
+
+.logo{
+    width: 30px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+     gap: 78px;
+     color: #ccd6dd;
+}
+
+/* typography and icons */
+
+
+i{
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.fa-solid, .fa-regular{
+    color: #8899ac;
+}
+
+
+.liked{
+    color: red;
+}
+
+.retweeted {
+  color: limegreen;
+}
+
+/* layout */
+
+main, header{
+    margin: 0 auto;
+}
+
+header{
+    padding: 15px 0 15px 10px;
+}
+
+.tweet-input-area {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 20px 0 0 20px;
+    border-top: 1px solid #343739;
+}
+
+/* textareas + btn */
+
+textarea{
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    height: 80px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: lighter;
+    background: #15202b;
+    color: #ccd6dd;
+}
+
+button{
+    background-color: #1DA1F2;
+    border: none;
+    color: #ffffff;
+    padding: 10px 19px;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tweet-btn-container {
+    width: 100%;
+     width: 450px;
+     margin: 0 auto;
+}
+
+
+/* tweet */
+
+.tweet{
+    border-top: 1px solid #343739;
+    padding: 15px 0 10px 20px;
+    margin: 15px 0 0 0;
+}
+
+.tweet-inner{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tweet-details{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    align-content: center;
+    width: 400px;
+}
+
+.tweet-detail{
+    display: flex;
+    gap: 5px;
+    color: #8899ac;
+}
+
+.tweet-reply{
+    border-top: 1px solid #343739;
+    padding: 20px 0 0 0px;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+}
+
+.handle{
+    font-size: 12px;
+    font-weight: 500;
+    color: #8899ac;
+    margin-top: 0;
+}
+
+.tweet-text{
+     width: 100%;
+    font-size: 17px;
+    line-height: 20px;
+    color: #ccd6dd;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+/* images */
+
+.profile-pic{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 48px;
+}
+
+/* utility */
+.hidden{
+    display: none;
+}
