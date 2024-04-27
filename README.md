@@ -26,4 +26,4 @@
 
 ## Live Demo
 
-- Live Site URL: [Here](https://hudamab95.github.io/Twimba/)
+- Live Site URL: [Here](https://xplor-splash-page.netlify.app)
